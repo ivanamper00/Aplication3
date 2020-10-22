@@ -14,17 +14,20 @@
 
     <item>
 
-        <rotate
-            android:fromDegrees="-30"
-            android:pivotX="10%"
-            android:pivotY="110%"
-            >
+
             <shape
                 android:shape="rectangle">
-                <solid android:color="#CB0000" />
+                <gradient
+                    android:type="radial"
+                    android:startColor="#00000000"
+                    android:endColor="#CB0000"
+                    android:gradientRadius="700"
+                    android:angle="270"
+                    android:centerX="1"
+                    android:centerY=".5"/>
                 <size android:width="300dp" android:height="300dp"/>
             </shape>
-        </rotate>
+
     </item>
 <!--    <item>-->
 <!--        <rotate-->
